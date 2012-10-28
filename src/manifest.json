@@ -1,0 +1,13 @@
+{
+  "name": "Add pinyin to Chinese text.",
+  "version": "1.0.1",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "browser_action": {
+      "name": "Chinese Reader",
+      "default_icon": "pinyin.png"
+  },
+  "manifest_version": 2
+}
